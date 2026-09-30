@@ -5,7 +5,7 @@ setTimeout(()=>{
 },5000);
 
 process.nextTick(()=>{
-    console.log("This is process.nextTick operation")
+    console.log("This is  process.nextTick operation")
 })
 
 setTimeout(()=>{
