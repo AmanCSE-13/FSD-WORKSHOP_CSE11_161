@@ -12,4 +12,4 @@ myEmmiter.on("exit", (teacher)=>{
 
 myEmmiter.emit("greet", "Aman")
 myEmmiter.emit("GameOn", "Aman")
-myEmmiter.emit("exit", "Aman")
+myEmmiter.emit("exit", "Aman kumar")
