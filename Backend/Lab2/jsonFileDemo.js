@@ -6,7 +6,7 @@ async function createFile(data) {
     try {
         await fs.writeFile(
             filePath,
-            JSON.stringify(data, null, 2),
+            JSON.stringify(data,  null, 2),
             "utf8"
         )
         console.log("File created successfully")
