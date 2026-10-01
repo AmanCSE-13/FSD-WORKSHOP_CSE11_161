@@ -37,7 +37,7 @@ function ApiTest() {
 	return (
 		<section className="api-tester">
 			<div className="page-heading">
-				<h1>API Tester</h1>
+				<h1>API TESTER</h1>
 			</div>
 			<div className="request-row">
 				<select value={method} onChange={(event) => setMethod(event.target.value)}>
@@ -54,7 +54,7 @@ function ApiTest() {
 				/>
 				<button type="button" onClick={sendRequest} disabled={loading}>
 					{loading ? 'Sending...' : 'Send request'}
-				</button>
+				 </button>
 			</div>
 
 			<label htmlFor="request-body">Body</label>
