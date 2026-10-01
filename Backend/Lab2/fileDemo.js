@@ -38,7 +38,7 @@ async function deleteFile(){
 }
 async function run(){
     await createFile("Hello world\n")
-    await append("Continue writing")
+    await append("Continue Writing")
     await readFile()
     deleteFile()
 }
